@@ -1,7 +1,3 @@
-Here’s your rewritten and Markdown-formatted version of the document:
-
-⸻
-
 📰 Objective Newsfeed — A Tool for Truth
 
 🧭 Mission Statement
