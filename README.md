@@ -31,8 +31,8 @@ The repository is organized as follows:
 1. **Clone the Repository**
 
 ```bash
-   git clone https://github.com/kliewerdaniel/obj01.git
-   cd obj01
+   git clone https://github.com/kliewerdaniel/obj02.git
+   cd obj02
 ```
 
 2.	Create and Activate a Virtual Environment (Optional but Recommended)
