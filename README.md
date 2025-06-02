@@ -1,6 +1,3 @@
-Certainly! Based on the actual structure and contents of the kliewerdaniel/obj01 repository, here is a revised README.md that accurately reflects the project’s setup and functionality:
-
-⸻
 
 Objective Newsfeed — A Tool for Truth
 
