@@ -35,26 +35,26 @@ The repository is organized as follows:
    cd obj01
 ```
 
-	2.	Create and Activate a Virtual Environment (Optional but Recommended)
+2.	Create and Activate a Virtual Environment (Optional but Recommended)
 
 ```bash
 python3 -m venv venv
 source venv/bin/activate  # On Windows: venv\Scripts\activate
 ```
 
-	3.	Install Dependencies
+3.	Install Dependencies
 
 ```bash
 pip install -r requirements.txt
 ```
 
-	4.	Download SpaCy Language Model
+4.	Download SpaCy Language Model
 
 ```bash
 python -m spacy download en_core_web_sm
 ```
 
-	5.	Start the FastAPI Application
+5.	Start the FastAPI Application
 
 ```bash
 uvicorn main:app --reload
@@ -62,7 +62,7 @@ uvicorn main:app --reload
 
 Access the API at: http://127.0.0.1:8000
 
-	6.	Frontend
+6.	Frontend
 
 ```bash
 cd frontend
