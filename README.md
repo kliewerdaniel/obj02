@@ -33,49 +33,41 @@ The repository is organized as follows:
    ```bash
    git clone https://github.com/kliewerdaniel/obj01.git
    cd obj01
-
+```
 	2.	Create and Activate a Virtual Environment (Optional but Recommended)
-
+```
 python3 -m venv venv
 source venv/bin/activate  # On Windows: venv\Scripts\activate
-
+```
 
 	3.	Install Dependencies
-
+```
 pip install -r requirements.txt
-
+```
 
 	4.	Download SpaCy Language Model
-
+```
 python -m spacy download en_core_web_sm
-
+```
 
 	5.	Start the FastAPI Application
-
+```
 uvicorn main:app --reload
-
+```
 Access the API at: http://127.0.0.1:8000
 
 	6.	Frontend
-
+```
 cd frontend
 npm install
 npm run dev
-
+```
 Access the web interface at: http://localhost:5173
 
 ⸻
 
 🔧 Configuration
 	•	configs/newsfeeds.yaml — Define RSS feed URLs and categories
-
-⸻
-
-🛠️ Extending the Project
-	•	Translation Models: Swap translation models by updating the TRANSLATION_MODEL environment variable
-	•	Embedding Models: Change embedding models via the EMBEDDING_MODEL environment variable
-	•	Summarization: Modify or add summarization techniques in the nlp/ directory
-	•	Frontend: Customize the web interface in the frontend/ directory
 
 ⸻
 
