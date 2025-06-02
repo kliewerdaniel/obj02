@@ -1,0 +1,149 @@
+# Diverse Global News Sources Configuration
+# Diversity Metric: 0-10 scale measuring ideological, geographical, and cultural distance
+# RSS Feed Status: Verified active as of June 2025
+sources:
+  # Western Liberal Democratic Perspective
+  - name: "BBC World News"
+    type: "rss"
+    url: "http://feeds.bbci.co.uk/news/world/rss.xml"
+    lang: "en"
+    diversity_score: 6.5
+    perspective: "Western Liberal, Public Broadcasting"
+    region: "Europe/UK"
+
+  - name: "Reuters World News"
+    type: "rss"
+    url: "https://feeds.reuters.com/Reuters/worldNews"
+    lang: "en"
+    diversity_score: 7.0
+    perspective: "Western Centrist, Financial/Business Focus"
+    region: "Global/Western"
+
+  - name: "The Guardian World News"
+    type: "rss"
+    url: "https://www.theguardian.com/world/rss"
+    lang: "en"
+    diversity_score: 5.5
+    perspective: "Western Left-Liberal"
+    region: "Europe/UK"
+
+  # Middle Eastern Perspectives
+  - name: "Al Jazeera English"
+    type: "rss"
+    url: "https://www.aljazeera.com/xml/rss/all.xml"
+    lang: "en"
+    diversity_score: 8.5
+    perspective: "Middle Eastern, Pan-Arab"
+    region: "Middle East/Qatar"
+
+  # Russian/Eastern European Perspective
+  - name: "RT International"
+    type: "rss"
+    url: "https://www.rt.com/rss/"
+    lang: "en"
+    diversity_score: 9.5
+    perspective: "Russian State, Pro-Kremlin"
+    region: "Eastern Europe/Russia"
+
+  - name: "TASS World"
+    type: "rss"
+    url: "https://tass.com/rss/v2.xml"
+    lang: "en"
+    diversity_score: 9.0
+    perspective: "Russian Official News Agency"
+    region: "Eastern Europe/Russia"
+
+  # Chinese Perspective
+  - name: "China Daily World"
+    type: "rss"
+    url: "http://www.chinadaily.com.cn/rss/world_rss.xml"
+    lang: "en"
+    diversity_score: 8.8
+    perspective: "Chinese State English-Language"
+    region: "East Asia/China"
+
+  # European Continental Perspectives
+  - name: "Deutsche Welle International"
+    type: "rss"
+    url: "https://rss.dw.com/rdf/rss-en-all"
+    lang: "en"
+    diversity_score: 6.8
+    perspective: "German Public Broadcasting, EU-Centric"
+    region: "Central Europe/Germany"
+
+  - name: "Le Monde International"
+    type: "rss"
+    url: "https://www.lemonde.fr/international/rss_full.xml"
+    lang: "fr"
+    diversity_score: 6.2
+    perspective: "French Liberal, European"
+    region: "Western Europe/France"
+
+  - name: "El País Internacional"
+    type: "rss"
+    url: "https://feeds.elpais.com/mrss-s/internacional"
+    lang: "es"
+    diversity_score: 6.0
+    perspective: "Spanish Liberal, Ibero-American Focus"
+    region: "Southern Europe/Spain"
+
+  # African Perspectives
+  - name: "News24 Africa"
+    type: "rss"
+    url: "https://feeds.news24.com/articles/news24/Africa/rss"
+    lang: "en"
+    diversity_score: 7.5
+    perspective: "South African, Pan-African"
+    region: "Africa/South Africa"
+
+  # Asian Perspectives
+  - name: "The Hindu International"
+    type: "rss"
+    url: "https://www.thehindu.com/news/international/?service=rss"
+    lang: "en"
+    diversity_score: 7.2
+    perspective: "Indian Liberal, Non-Aligned"
+    region: "South Asia/India"
+
+  - name: "Times of India World"
+    type: "rss"
+    url: "https://timesofindia.indiatimes.com/rssfeeds/296589292.cms"
+    lang: "en"
+    diversity_score: 6.9
+    perspective: "Indian Centrist, Economic Focus"
+    region: "South Asia/India"
+
+  - name: "NHK World Japan"
+    type: "rss"
+    url: "https://www3.nhk.or.jp/nhkworld/en/rss.xml"
+    lang: "en"
+    diversity_score: 7.1
+    perspective: "Japanese Public Broadcasting, East Asian"
+    region: "East Asia/Japan"
+
+  # US Conservative Alternative
+  - name: "Fox News World"
+    type: "rss"
+    url: "http://feeds.foxnews.com/foxnews/world"
+    lang: "en"
+    diversity_score: 4.5
+    perspective: "US Conservative, Right-Wing"
+    region: "North America/USA"
+
+  # International Organizations
+  - name: "UN News"
+    type: "rss"
+    url: "https://news.un.org/feed/subscribe/en/news/all/rss.xml"
+    lang: "en"
+    diversity_score: 5.0
+    perspective: "Multilateral, Diplomatic"
+    region: "Global/International"
+
+  # Alternative/Independent
+  - name: "The Intercept"
+    type: "rss"
+    url: "https://theintercept.com/feed/?rss"
+    lang: "en"
+    diversity_score: 6.8
+    perspective: "US Independent Left, Investigative"
+    region: "North America/USA"
