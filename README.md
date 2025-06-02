@@ -30,10 +30,11 @@ The repository is organized as follows:
 
 1. **Clone the Repository**
 
-   ```bash
+```bash
    git clone https://github.com/kliewerdaniel/obj01.git
    cd obj01
 ```
+
 	2.	Create and Activate a Virtual Environment (Optional but Recommended)
 ```bash
 python3 -m venv venv
